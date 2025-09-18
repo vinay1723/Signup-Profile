@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 5vw;
+  border-bottom: 2px solid white;
+  font-size: 24px;
+}
+
+#nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
